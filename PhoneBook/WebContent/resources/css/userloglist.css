@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+
+h2
+{
+    font-size:40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight:bold;
+	padding:10px 0;
+	text-align: center;
+    
+}
+
+.content-table {
+	 padding:5px;
+    top: 23%;
+    left: 38%;
+    position:absolute;
+	transform:translate(-50% -50%);
+	box-sizing:border-box;
+  	border-collapse: collapse;
+  	margin: 10px;
+  	font-size: 15px;
+  	font-weight:400;
+  width: 450px;
+  border-radius: 5px 5px 0 0;
+ 
+  
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 15px;
+  border: 1.5px solid black;
+  color: black;
+}
+
+.content-table tbody tr {
+  border-bottom: 2px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: black;
+}
+

@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+
+
+/*------------------------------------------------------ /main section-------------------------------------------------- --*/
+
+#sec1  h2
+{
+
+    font-family: 
+    color: white;
+    font-size: 45px;
+    font-weight:bold;
+    width: 885px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px yellow;
+
+    
+    
+}
+#sec1  h1
+{
+    margin-top: 50px;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 60px;
+    font-weight:bold;
+    width: 885px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px yellow;
+    text-align:left ;
+    
+    
+}
+.col {
+	
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    
+}
+span:before{
+    content: '';
+    animation: animate infinite 6s;
+    color: yellow;
+     text-shadow: 2px 1px 3px black;
+}
+@keyframes animate{
+    0%{
+        content: 'Merge';
+    }
+     20%{
+        content: 'Delete';
+    }
+     40%{
+        content: 'Select';
+    }
+     60%{
+        content: 'Update';
+    }
+     100%{
+        content: 'Add';
+    }
+    
+}
+
